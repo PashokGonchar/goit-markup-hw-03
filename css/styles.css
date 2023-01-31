@@ -40,9 +40,11 @@ body {
 }
 
 .container {
-  width: 1158px;
+  width: 1470px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 156px;
+  padding-right: 156px;
 }
 /* HEADER */
 
