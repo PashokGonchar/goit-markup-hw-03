@@ -52,8 +52,8 @@ body {
 }
 .page-nav,
 .contacts {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -96,7 +96,7 @@ align-items: center;
   color: var(--ocean-color);
 }
 
-.contacts{
+.contacts {
   margin-left: auto;
 }
 
@@ -138,18 +138,22 @@ align-items: center;
 /* HERO  */
 
 .hero {
-  background: var(--navy-color);
+  background-color: var(--navy-color);
+  text-align: center;
 }
 
 .hero-text {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
+  width: 511px;
   letter-spacing: 0.02em;
   color: var(--white-color);
+  padding-top: 188px;
+  margin: 0 auto 45px;
 }
 
 .hero-button {
+  padding: 16px 32px;
   font-family: var(--primary-font);
   font-weight: 500;
   font-size: 16px;
@@ -157,6 +161,7 @@ align-items: center;
   letter-spacing: 0.04em;
   color: var(--white-color);
   background: var(--iris-color);
+  margin-bottom: 188px;
 }
 
 .hero-button:hover,
