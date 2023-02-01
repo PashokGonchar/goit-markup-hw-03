@@ -56,10 +56,6 @@ display: flex;
 align-items: center;
 }
 
-.contacts{
-  margin-left: auto;
-}
-
 .logo {
   font-family: var(--secondary-font);
   font-weight: 800;
@@ -98,6 +94,10 @@ align-items: center;
 .menu-link:hover,
 .menu-link:focus {
   color: var(--ocean-color);
+}
+
+.contacts{
+  margin-left: auto;
 }
 
 .cont-nav {
