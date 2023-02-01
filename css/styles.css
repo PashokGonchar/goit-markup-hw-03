@@ -162,6 +162,7 @@ body {
   color: var(--white-color);
   background: var(--iris-color);
   margin-bottom: 188px;
+  border: none;
 }
 
 .hero-button:hover,
