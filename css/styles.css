@@ -7,8 +7,7 @@ p {
   margin-bottom: 0;
 }
 
-ul
- {
+ul {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -46,7 +45,20 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 /* HEADER */
+.main-nav {
+  display: flex;
+}
+.page-nav,
+.contacts {
+display: flex;
+align-items: center;
+}
+
+.contacts{
+  margin-left: auto;
+}
 
 .logo {
   font-family: var(--secondary-font);
@@ -62,7 +74,20 @@ body {
   color: var(--iris-color);
 }
 
+.menu {
+  display: flex;
+  margin-left: 76px;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
 .menu-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -73,6 +98,15 @@ body {
 .menu-link:hover,
 .menu-link:focus {
   color: var(--ocean-color);
+}
+
+.cont-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.cont-nav .item + .item {
+  margin-left: 40px;
 }
 
 .contact-mail-link {
