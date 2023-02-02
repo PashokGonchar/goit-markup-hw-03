@@ -50,6 +50,10 @@ body {
   padding-right: 15px;
 }
 
+.section {
+  padding-bottom: 120px;
+}
+
 /* HEADER */
 .main-nav {
   display: flex;
@@ -192,7 +196,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate-color);
   padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .subtitle {
@@ -207,9 +210,6 @@ body {
   display: flex;
 }
 
-.content-image {
-  margin-bottom: 120px;
-}
 
 .content-image:not(:last-child) {
   margin-right: 24px;
@@ -232,9 +232,12 @@ body {
   text-align: center;
   padding-top: 120px;
   padding-bottom: 72px;
-  background-color: var(--cloud-color);
+  
 }
 
+.one {
+background-color: var(--cloud-color);
+}
 
 .team {
   margin: 32px 16px 32px 16px;
@@ -268,7 +271,6 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
-  
 }
 
 .footer {
