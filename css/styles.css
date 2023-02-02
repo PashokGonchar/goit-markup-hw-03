@@ -291,8 +291,10 @@ body {
 
 }
 .footer-text {
-  display: block;
-  width: 264px;
+  width: 300px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-right: 1020px;
 }
 
 
