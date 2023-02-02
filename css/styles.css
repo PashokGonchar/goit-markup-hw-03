@@ -289,6 +289,7 @@ width: 264px;
   text-transform: uppercase;
   margin-bottom: 16px;
 }
+
 .footer-text {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -299,6 +300,14 @@ width: 264px;
   color: var(--cornflower-color);
 }
 
+.button-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.button-item:not(:last-child) {
+  margin-right: 24px;
+}
 
 .nav-button {
   font-family: var(--primary-font);
@@ -308,6 +317,11 @@ width: 264px;
   letter-spacing: 0.04em;
   color: var(--iris-color);
   background: var(--cornflower-color);
+  margin-top: 96px;
+  margin-bottom: 72px;
+  padding: 12px 24px;
+  border: 1px solid #E7E9FC;
+border-radius: 4px;
 }
 
 .nav-button:hover,
