@@ -344,7 +344,6 @@ body {
   width: calc((100% - 2 * 24px) / 3);
   margin-right: 24px;
   margin-bottom: 48px;
-  border: 1px solid #e7e9fc;
 }
 
 .works-cards-item:nth-child(3n) {
@@ -356,7 +355,10 @@ body {
 }
 
 .card {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  margin-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  border-right: 1px solid var(--cornflower-color);
+    border-left: 1px solid var(--cornflower-color);
+    border-bottom: 1px solid var(--cornflower-color);
 }
