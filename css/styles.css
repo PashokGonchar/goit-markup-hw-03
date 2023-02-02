@@ -272,14 +272,11 @@ body {
 }
 
 .footer {
-  background-color: var(--navy-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--cornflower-color);
+width: 264px;
 }
 
 .logo-footer {
+  display: block;
   font-family: var(--secondary-font);
   color: var(--cloud-color);
   font-weight: 800;
@@ -288,13 +285,16 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
+  margin-bottom: 16px;
 }
 .footer-text {
-  width: 300px;
   padding-top: 100px;
   padding-bottom: 100px;
-  margin-right: 1020px;
+    background-color: var(--navy-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cornflower-color);
 }
 
 
