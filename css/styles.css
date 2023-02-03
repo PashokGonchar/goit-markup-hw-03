@@ -52,6 +52,7 @@ body {
 
 .section {
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 /* HEADER */
@@ -157,7 +158,7 @@ body {
   width: 511px;
   letter-spacing: 0.02em;
   color: var(--white-color);
-  padding-top: 188px;
+  /* padding-top: 188px; */
   margin: 0 auto 45px;
 }
 
@@ -170,7 +171,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--white-color);
   background: var(--iris-color);
-  margin-bottom: 188px;
+  /* margin-bottom: 188px; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -183,8 +184,6 @@ body {
 }
 .title {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .title-item:not(:last-child) {
@@ -192,12 +191,11 @@ body {
 }
 
 .title-item {
-  width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
-  padding-top: 120px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .title-text {
   margin-top: 8px;
@@ -209,6 +207,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(---navy-color);
+}
+
+.working-section {
+  padding-top: 0;
 }
 
 .content-working {
@@ -225,7 +227,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .subject-team {
@@ -234,16 +236,16 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
-.one {
+.our-team {
   background-color: var(--cloud-color);
 }
 
 .team {
-  margin: 32px 16px 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .team-name {
@@ -266,7 +268,6 @@ body {
 .group-team {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 120px;
 }
 
 .content-team {
@@ -304,9 +305,14 @@ body {
   color: var(--cornflower-color);
 }
 
+.main-button{
+  padding-top: 96px;
+}
+
 .button-menu {
   display: flex;
   justify-content: center;
+  margin-bottom: 72px;
 }
 
 .button-item:not(:last-child) {
@@ -321,8 +327,6 @@ body {
   letter-spacing: 0.04em;
   color: var(--iris-color);
   background: var(--cornflower-color);
-  margin-top: 96px;
-  margin-bottom: 72px;
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
@@ -341,7 +345,7 @@ body {
 }
 
 .works-cards-item {
-  width: calc((100% - 2 * 24px) / 3);
+  flex-basis: calc((100% - 2 * 24px) / 3);
   margin-right: 24px;
   margin-bottom: 48px;
 }
